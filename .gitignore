@@ -1,0 +1,29 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node (not used now, but future-proof)
+node_modules/
+npm-debug.log*
+
+# Python (local preview server)
+__pycache__/
+*.pyc
+
+# Playwright / test artifacts
+.playwright-mcp/
+*.png
+*.jpg
+*.jpeg
+!Design Sample/*.webp
+
+# Temp / debug
+*.log
+.cache/
