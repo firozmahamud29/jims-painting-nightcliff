@@ -23,6 +23,8 @@ __pycache__/
 *.jpg
 *.jpeg
 !Design Sample/*.webp
+!assets/img/*.png
+!wordpress-theme/jims-painting-nightcliff/assets/img/*.png
 
 # Temp / debug
 *.log
