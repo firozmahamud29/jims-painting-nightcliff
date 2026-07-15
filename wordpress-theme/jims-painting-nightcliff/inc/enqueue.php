@@ -11,16 +11,12 @@ if ( ! defined( 'ABSPATH' ) ) exit;
  * Front-end styles & scripts.
  */
 function jpn_enqueue_assets() {
-    // Google Fonts (Rubik — matches jims.net, official Jim's web typeface)
-    wp_enqueue_style(
-        'jpn-fonts',
-        'https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800&display=swap',
-        array(),
-        null
-    );
+    // Typography — Futura (primary) + Arial (secondary) per Jim's Style Guide.
+    // Both are system/locally-installed fonts — no web font load required.
+    // If a licensed Futura webfont is available, enqueue it here.
 
     // Theme stylesheet (brand design system)
-    wp_enqueue_style( 'jpn-theme', JPN_URI . '/assets/css/theme.css', array('jpn-fonts'), JPN_VERSION );
+    wp_enqueue_style( 'jpn-theme', JPN_URI . '/assets/css/theme.css', array(), JPN_VERSION );
 
     // Elementor bridge — utility classes that map to the design system
     if ( did_action( 'elementor/loaded' ) ) {

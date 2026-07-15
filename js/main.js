@@ -8,7 +8,7 @@
 
 const FORM_CONFIG = {
   mode: 'mailto',
-  recipientEmail: 'hello@jimspaintingnightcliff.com.au',
+  recipientEmail: 'nightcliff@jimspainting.com.au',
   endpointURL: '',
   googleURL: ''
 };
@@ -286,10 +286,25 @@ const FORM_CONFIG = {
   /* ---------- Year ---------- */
   function initYear() { const y = document.getElementById('year'); if (y) y.textContent = new Date().getFullYear(); }
 
+  /* ---------- Package tabs ---------- */
+  function initPackageTabs() {
+    const tabs = document.querySelectorAll('.pkg-tab');
+    const panels = document.querySelectorAll('.pkg-panel');
+    if (!tabs.length) return;
+    tabs.forEach(tab => {
+      tab.addEventListener('click', () => {
+        const target = tab.dataset.tab;
+        tabs.forEach(t => t.classList.toggle('active', t === tab));
+        panels.forEach(p => p.classList.toggle('active', p.dataset.panel === target));
+      });
+    });
+  }
+
   /* ---------- Init ---------- */
   function init() {
     initMenu(); initScroll(); initReveal(); initCounters(); initBaSlider();
     initMagnetic(); initAccordion(); initReviews(); initForm(); initFloatCta(); initYear();
+    initPackageTabs();
   }
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
   else init();

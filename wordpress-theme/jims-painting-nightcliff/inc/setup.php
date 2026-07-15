@@ -43,12 +43,12 @@ function jpn_get_option( $key = '', $default = '' ) {
     $defaults = array(
         'phone'        => '0400 000 000',
         'phone_raw'    => '+61400000000',
-        'email'        => 'hello@jimspaintingnightcliff.com.au',
+        'email'        => 'nightcliff@jimspainting.com.au',
         'address'      => 'Nightcliff, Darwin NT 0810',
         'instagram'    => '#',
         'facebook'     => '#',
         'whatsapp'     => '#',
-        'lead_email'   => 'hello@jimspaintingnightcliff.com.au',
+        'lead_email'   => 'nightcliff@jimspainting.com.au',
     );
     $options = get_option( 'jpn_options', array() );
     $options = wp_parse_args( $options, $defaults );
