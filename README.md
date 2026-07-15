@@ -12,14 +12,14 @@ This is the franchisee site for **Jim's Painting Nightcliff**, part of the offic
 
 | Token | Value |
 |-------|-------|
-| **Primary red** | `#ee3127` |
+| **Primary red** | `#e1261c` |
 | Red dark (hover) | `#c4261d` |
 | Ink (dark sections) | `#181a20` |
 | Charcoal (body text) | `#313131` |
 | White surfaces | `#ffffff` |
 | Cloud (light bg) | `#f5f6f8` |
 | Amber (stars only) | `#f5a623` |
-| **Headings font** | Rubik (Google Font, matches jims.net) |
+| **Headings font** | Futura (primary) + Arial (secondary), per Jim's Style Guide |
 | **Body font** | system-ui / Roboto stack |
 | **Logo** | Official Jim's asset (never redraw the "Jim's" wordmark) |
 | **Trust badges** | 10,000+ Five-Star Reviews · Fully Trained & Insured · Police Checked · Jim's Work Guarantee |
@@ -46,7 +46,7 @@ jims-painting-nightcliff/
 │       ├── front-page.php              ← smart: defers to Elementor if active
 │       ├── inc/
 │       │   ├── setup.php               ← theme supports, Customizer, image sizes
-│       │   ├── enqueue.php             ← Rubik fonts + theme.css + theme.js
+│       │   ├── enqueue.php             ← Futura+Arial fonts + theme.css + theme.js
 │       │   ├── form-handler.php        ← jpn_lead CPT + admin-ajax + email
 │       │   └── shortcodes.php
 │       ├── shortcodes/quote-form.php   ← [jpn_quote_form]
@@ -99,7 +99,7 @@ Replace these placeholders before going live:
 - [ ] **Real phone number** (currently `0400 000 000` placeholder)
 - [ ] **Real ABN** (currently `00 000 000 000`)
 - [ ] **Domain confirmation** (currently `jimspaintingnightcliff.com.au` placeholder)
-- [ ] **Real lead email** (currently `hello@jimspaintingnightcliff.com.au`)
+- [ ] **Real lead email** (currently `nightcliff@jimspainting.com.au`)
 - [ ] **Real photos** to replace gradient placeholders in gallery + before/after slider
 - [ ] **Testimonials approval** (3 reviews currently placeholders)
 - [ ] **Pricing confirmation** for Roof / Fence / Epoxy packages

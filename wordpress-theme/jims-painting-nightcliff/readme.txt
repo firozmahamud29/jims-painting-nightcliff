@@ -11,14 +11,14 @@ Tags: elementor, business, lead-generation, painting-contractor, franchise, rtl-
 
 Elementor-ready WordPress child theme for Jim's Painting Nightcliff, a Jim's Group
 franchisee based in Nightcliff, Darwin NT. Extends the "Hello Elementor" parent theme
-with the Jim's brand design system (Rubik typography, Jim's Red #ee3127), a 2-step
+with the Jim's brand design system (Futura+Arial typography, Jim's Red #e1261c), a 2-step
 lead-generation form with admin-side lead storage, and conversion-focused components.
 
 = Features =
 
 * 2-step quote form (job details → contact details) with admin-ajax handling
 * Leads stored as a custom post type + emailed to the recipient address
-* Jim's brand design system (Rubik headings, Jim's Red #ee3127 / white / charcoal)
+* Jim's brand design system (Futura headings, Jim's Red #e1261c / white / charcoal)
 * Franchise trust badges (10,000+ reviews, Fully Insured, Police Checked, Jim's Work Guarantee)
 * Elementor Pro Theme Builder locations (header, footer) registered
 * Smart front-page: renders the pre-built landing page until you build with Elementor
