@@ -1,0 +1,43 @@
+schema: spec-driven
+
+context: |
+  Project: Jim's Painting Nightcliff — franchisee landing page + WordPress child theme.
+  Client: Jim's Group (jims.net) Painting franchisee based in Nightcliff, Darwin NT.
+  Serves: Darwin-wide, home base Nightcliff/northern suburbs.
+
+  Stack:
+    - Standalone: vanilla HTML/CSS/JS, no build step, no framework.
+    - WordPress: child theme on "Hello Elementor" parent, Elementor Pro Theme Builder.
+    - Lead capture: custom post type + admin-ajax handler (no plugin dependency).
+
+  Brand (Jim's Group — extracted from live jimspainting.com.au CSS):
+    - Primary red: #ee3127 (variant #ee2e24 acceptable)
+    - White: #ffffff
+    - Body text: #000000 / #181a20 / #313131
+    - Headings font: Rubik (Google Font, matches jims.net)
+    - Body font: system stack or Inter/Roboto (sans-serif only, NO serifs)
+    - Logo: official Jim's asset only — never redraw "Jim's" wordmark
+    - Trust badges: 10,000+ 5-star reviews, Fully Insured, Police Checked, Jim's Work Guarantee
+    - CTA copy: "Request a Free Quote" + "Call Now"
+    - Phone: franchisee's own mobile primary (131 546 optional central)
+
+  Hard constraints (from original TPP requirements doc, still apply):
+    - NO faces/heads in any imagery (use before/after, textures, abstract).
+    - NO payment/checkout — leads only. Form submits to franchisee email + WP CPT.
+    - "affordable" never "cheap" — across all copy including SEO meta.
+
+  Conventions:
+    - Conventional commits.
+    - Caveman communication style for agent output (terse, no filler).
+
+rules:
+  proposal:
+    - Keep proposals under 600 words.
+    - Always include "Non-goals" and "Risks" sections.
+  design:
+    - Cite exact hex codes and font names — no estimates.
+    - Flag any place the rebrand touches DB-stored values (post type slugs, option keys, meta keys).
+  tasks:
+    - Break tasks into chunks of max 2 hours.
+    - Group by file or layer (HTML / CSS / JS / PHP / repo).
+    - Each task must be independently verifiable.

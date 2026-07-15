@@ -1,6 +1,6 @@
-# Territory Proud Painters — WordPress Theme (Elementor Pro Ready)
+# Jim's Painting Nightcliff — WordPress Theme (Elementor Pro Ready)
 
-A child theme of **Hello Elementor**, built for the Territory Proud Painters
+A child theme of **Hello Elementor**, built for the Jim's Painting Nightcliff
 landing page. Ships with a working 2-step lead form, lead storage, and the full
 pre-built landing page as a visual fallback — so the site looks perfect on day
 one, and you can rebuild any section visually in Elementor Pro when ready.
@@ -10,7 +10,7 @@ one, and you can rebuild any section visually in Elementor Pro when ready.
 ## 📦 What's in this folder
 
 ```
-territory-proud-painters/
+jims-painting-nightcliff/
 ├── style.css                    ← WP theme header (child of hello-elementor)
 ├── functions.php                ← loads inc/ + shortcodes/
 ├── front-page.php               ← smart Elementor-aware front page
@@ -20,10 +20,10 @@ territory-proud-painters/
 ├── inc/
 │   ├── setup.php                ← theme supports, menus, Customizer, Elementor locations
 │   ├── enqueue.php              ← loads fonts, theme.css, elementor.css, theme.js
-│   ├── form-handler.php         ← registers "tpp_lead" CPT + admin-ajax handler + email
+│   ├── form-handler.php         ← registers "jpn_lead" CPT + admin-ajax handler + email
 │   └── shortcodes.php           ← loads shortcodes/
 ├── shortcodes/
-│   └── quote-form.php           ← [tpp_quote_form] — the 2-step form
+│   └── quote-form.php           ← [jpn_quote_form] — the 2-step form
 ├── templates/
 │   └── landing-page.php         ← pre-built landing page (fallback layout)
 └── assets/
@@ -47,7 +47,7 @@ In WP Admin → **Plugins → Add New**:
 **Appearance → Themes → Add New** → search **"Hello Elementor"** → Install → Activate.
 
 ### Step 3 — Install this child theme
-Zip the `territory-proud-painters` folder, then:
+Zip the `jims-painting-nightcliff` folder, then:
 **Appearance → Themes → Add New → Upload Theme** → choose the zip → Install → Activate.
 
 ### Step 4 — Set the front page
@@ -65,7 +65,7 @@ Zip the `territory-proud-painters` folder, then:
 ### To rebuild the front page visually:
 1. Go to **Pages → Home → Edit with Elementor**.
 2. Build your layout. The pre-built fallback stops rendering the moment Elementor detects content.
-3. Drag a **Shortcode widget** wherever you want the form, paste `[tpp_quote_form]`, done.
+3. Drag a **Shortcode widget** wherever you want the form, paste `[jpn_quote_form]`, done.
 
 ### Elementor utility classes (Advanced tab → CSS Classes):
 | Class | Effect |
@@ -89,7 +89,7 @@ Default header/footer render out of the box. To customise visually:
 
 **How it works:**
 1. Visitor fills the 2-step form.
-2. JS POSTs to `admin-ajax.php` (action: `tpp_submit_lead`).
+2. JS POSTs to `admin-ajax.php` (action: `jpn_submit_lead`).
 3. WP creates a **Lead** post (custom post type) with all fields as meta.
 4. WP emails the recipient (Customizer → "Lead Form Recipient Email").
 5. Reply-To is set to the visitor — sales team can hit Reply.
@@ -99,8 +99,8 @@ WP Admin sidebar → **Quote Leads** — sortable list with Name, Phone, Email, 
 
 **Drop the form anywhere:**
 ```
-[tpp_quote_form]
-[tpp_quote_form title="Get a Commercial Quote"]
+[jpn_quote_form]
+[jpn_quote_form title="Get a Commercial Quote"]
 ```
 
 ---
@@ -128,4 +128,4 @@ WP Admin sidebar → **Quote Leads** — sortable list with Name, Phone, Email, 
 
 ---
 
-Built by **Qii Creative** for Territory Proud Painters · Darwin, NT · 2026.
+Built by **Qii Creative** for Jim's Painting Nightcliff · Darwin, NT · 2026.

@@ -1,6 +1,6 @@
 /* ============================================================
-   TERRITORY PROUD PAINTERS — "Territory Earth" Interactions
-   v3 · Premium Editorial Build · 2026
+   JIM'S PAINTING NIGHTCLIFF — Jim's Group Franchise Brand System
+   v4 · 2026
    ------------------------------------------------------------
    FORM WIRING (standalone) — edit FORM_CONFIG below.
    WordPress build uses theme.js (admin-ajax) instead.
@@ -8,7 +8,7 @@
 
 const FORM_CONFIG = {
   mode: 'mailto',
-  recipientEmail: 'quotes@territoryproudpainters.com.au',
+  recipientEmail: 'hello@jimspaintingnightcliff.com.au',
   endpointURL: '',
   googleURL: ''
 };
@@ -234,7 +234,7 @@ const FORM_CONFIG = {
       if (!validate(step2)) return;
       const data = Object.fromEntries(new FormData(form).entries());
       data.submitted_at = new Date().toISOString();
-      data.source = 'Territory Proud Painters — Landing Page';
+      data.source = "Jim's Painting Nightcliff — Landing Page";
 
       const btn = form.querySelector('button[type="submit"]');
       const orig = btn.textContent;

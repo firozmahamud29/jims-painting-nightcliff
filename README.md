@@ -1,109 +1,134 @@
-# 🎨 Territory Proud Painters — Landing Page
+# 🎨 Jim's Painting Nightcliff — Landing Page
 
-> **Darwin's trusted painters.** A premium, conversion-focused landing page built for lead generation.
-> Designed & developed by **Qii Creative**.
+> Darwin's trusted painters, backed by **Jim's Group**. Locally owned in Nightcliff, serving Darwin-wide.
 
----
-
-## 👀 Live Preview
-
-**🔗 [View the live design →](https://firozmahamud29.github.io/territory-proud-painters/)**
-
-Open this link on desktop and mobile to review the design. Best viewed in Chrome, Safari, or Firefox.
+**Live preview:** https://firozmahamud29.github.io/jims-painting-nightcliff/
 
 ---
 
-## 📋 What's Included
+## Brand identity — Jim's Group franchisee
 
-A single-page lead-generation site with:
+This is the franchisee site for **Jim's Painting Nightcliff**, part of the official [Jim's Group](https://jims.net) network. The design follows the Jim's brand system extracted from the live `jimspainting.com.au` production CSS.
 
-| Section | Purpose |
-|---|---|
-| **Hero + 2-step quote form** | Capture enquiries (job details → contact details) |
-| **Paint-brand marquee** | Credibility (Dulux, Taubmans, Haymes, Wattyl, Solver) |
-| **Animated stat band** | 11 years · 1,240+ rooms · 4.9★ · 5yr guarantee |
-| **Before/After slider** | Interactive — drag to compare (the #1 painter conversion asset) |
-| **3-tier pricing** | $299 Essential → $2,490 Full Interior → $4,900 Exterior |
-| **4-step process** | Enquiry → Quote → Paint → Walkthrough |
-| **Reviews carousel** | Auto-rotating testimonials from Darwin clients |
-| **Bento "Why Us" grid** | NT-conditions expertise, insurance, guarantee stats |
-| **Project gallery** | 6-tile editorial grid with suburb captions |
-| **FAQ accordion** | 5 objection-handling questions |
-| **Final CTA + footer** | ABN, Acknowledgement of Country, contact details |
-
----
-
-## 🎨 Design System — "Territory Earth"
-
-| Token | Value | Use |
-|---|---|---|
-| **Terracotta** | `#C0552E` | Primary accent, CTAs |
-| **Forest** | `#2C3A2E` | Dark sections, trust bands |
-| **Bone** | `#F6F1E7` | Primary background |
-| **Clay** | `#EDE4D3` | Cards, surfaces |
-| **Ochre** | `#C8923B` | Stars, highlights |
-| **Ink** | `#1F1A17` | Body text (warm near-black) |
-
-**Typography:** [Fraunces](https://fonts.google.com/specimen/Fraunces) (editorial serif display) + [Manrope](https://fonts.google.com/specimen/Manrope) (geometric sans body).
+| Token | Value |
+|-------|-------|
+| **Primary red** | `#ee3127` |
+| Red dark (hover) | `#c4261d` |
+| Ink (dark sections) | `#181a20` |
+| Charcoal (body text) | `#313131` |
+| White surfaces | `#ffffff` |
+| Cloud (light bg) | `#f5f6f8` |
+| Amber (stars only) | `#f5a623` |
+| **Headings font** | Rubik (Google Font, matches jims.net) |
+| **Body font** | system-ui / Roboto stack |
+| **Logo** | Official Jim's asset (never redraw the "Jim's" wordmark) |
+| **Trust badges** | 10,000+ Five-Star Reviews · Fully Trained & Insured · Police Checked · Jim's Work Guarantee |
+| **CTAs** | "Request a Free Quote" + "Call Now" |
+| **Phone** | Franchisee mobile primary · `131 546` optional central |
 
 ---
 
-## 🛠️ Tech Stack
-
-- **Standalone (root):** Pure HTML + CSS + JS — no framework, no build step, no dependencies.
-- **WordPress theme (`/wordpress-theme`):** Child theme of Hello Elementor, with a working 2-step form (admin-ajax + lead CPT), Elementor Pro ready.
+## What's in this repo
 
 ```
-territory-proud-painters/
-├── index.html              ← standalone landing page (GitHub Pages serves this)
-├── css/styles.css          ← full design system
-├── js/main.js              ← all interactions
-├── wordpress-theme/        ← Elementor-ready WP child theme (.zip included)
-│   └── territory-proud-painters.zip
-├── Design Sample/          ← reference inspiration (webp)
-└── README.md
+jims-painting-nightcliff/
+├── index.html                          ← standalone landing page (live preview)
+├── css/styles.css                      ← Jim's brand design system
+├── js/main.js                          ← interactions + form handler
+├── assets/img/                         ← official Jim's logos (PNG)
+│   ├── jims-painting-logo.png          ← logo mark (194×132)
+│   └── jims-painting-brush.png         ← full lockup (4613×1576)
+├── wordpress-theme/
+│   └── jims-painting-nightcliff/       ← WP child theme (Hello Elementor)
+│       ├── style.css                   ← theme header (Text Domain: jims-painting-nightcliff)
+│       ├── functions.php               ← JPN_VERSION / JPN_DIR / JPN_URI
+│       ├── header.php / footer.php     ← default templates (Elementor-overridable)
+│       ├── front-page.php              ← smart: defers to Elementor if active
+│       ├── inc/
+│       │   ├── setup.php               ← theme supports, Customizer, image sizes
+│       │   ├── enqueue.php             ← Rubik fonts + theme.css + theme.js
+│       │   ├── form-handler.php        ← jpn_lead CPT + admin-ajax + email
+│       │   └── shortcodes.php
+│       ├── shortcodes/quote-form.php   ← [jpn_quote_form]
+│       ├── templates/landing-page.php  ← pre-built landing page
+│       └── assets/
+│           ├── css/theme.css           ← synced Jim's design system
+│           ├── css/elementor.css       ← .jpn-* utility classes
+│           ├── js/theme.js             ← form posts to admin-ajax
+│           └── img/                    ← Jim's logos
+└── wordpress-theme/jims-painting-nightcliff.zip  ← installable theme zip
 ```
 
 ---
 
-## ✅ How to Review This Design
+## WordPress theme identifiers
 
-1. **Open the [live preview](https://firozmahamud29.github.io/territory-proud-painters/)** on your computer.
-2. **Test the before/after slider** — click and drag the handle in "The Work" section.
-3. **Try the quote form** — fill in Step 1, click "See my estimate", fill Step 2, submit.
-4. **Resize to mobile** — drag your browser narrow, or open on your phone, to check the responsive layout.
-5. **Check the contact details** (phone, email, address) are correct — these are placeholders until confirmed.
+All internal identifiers use the `jpn_` / `JPN_` / `jims-painting-nightcliff` schema:
 
----
+| Type | Identifier |
+|------|-----------|
+| Text domain | `jims-painting-nightcliff` |
+| Constants | `JPN_VERSION`, `JPN_DIR`, `JPN_URI` |
+| Functions | `jpn_*` (15 functions) |
+| Custom post type | `jpn_lead` |
+| Option key | `jpn_options` |
+| Meta prefix | `_jpn_*` |
+| Shortcode | `[jpn_quote_form]` |
+| Ajax action | `jpn_submit_lead` |
+| Nonce | `jpn_lead_nonce` |
+| JS global | `JPN` |
+| CSS class prefix | `.jpn-*` |
+| Enqueue handles | `jpn-fonts`, `jpn-theme`, `jpn-elementor` |
 
-## ⚠️ Pending Client Confirmations
-
-Before go-live, we need from you:
-
-- [ ] Real phone number, email, and address
-- [ ] Instagram / Facebook / WhatsApp links
-- [ ] Logo file (SVG or PNG)
-- [ ] 6–12 real project photos (**no crew faces/heads visible**, per brand policy)
-- [ ] Confirmation of the 3 testimonials (real & approved for public use)
-- [ ] Pricing for Roof / Fence & Deck / Epoxy packages
-- [ ] ABN and Public Liability insurance amount
-- [ ] Domain confirmation (`.com.au` vs `.com`)
+**Pre-launch safe:** No live database exists. Identifiers renamed freely with zero migration risk.
 
 ---
 
-## 📦 Deployment
+## Hard constraints (carried from original spec)
 
-**Option A — Standalone (fastest):** Upload `index.html`, `css/`, and `js/` to Hostinger via File Manager or FTP.
-
-**Option B — WordPress + Elementor Pro (recommended):** Install the theme from `wordpress-theme/territory-proud-painters.zip`, activate Elementor Pro, and edit visually. See `wordpress-theme/README-WP.md` for the full guide.
-
----
-
-## 📞 Contact
-
-**Qii Creative** — Design & Development
-For changes, questions, or feedback on this design, contact your project lead.
+- ✅ **No faces/heads** in any imagery — before/after sliders, textures, abstract only.
+- ✅ **No payment/checkout** — leads only. Form emails franchisee + saves to CPT.
+- ✅ **"affordable" never "cheap"** — across all copy including SEO meta.
 
 ---
 
-© Territory Proud Painters · Darwin, NT · Built by Qii Creative
+## Pending client assets
+
+Replace these placeholders before going live:
+
+- [ ] **Real phone number** (currently `0400 000 000` placeholder)
+- [ ] **Real ABN** (currently `00 000 000 000`)
+- [ ] **Domain confirmation** (currently `jimspaintingnightcliff.com.au` placeholder)
+- [ ] **Real lead email** (currently `hello@jimspaintingnightcliff.com.au`)
+- [ ] **Real photos** to replace gradient placeholders in gallery + before/after slider
+- [ ] **Testimonials approval** (3 reviews currently placeholders)
+- [ ] **Pricing confirmation** for Roof / Fence / Epoxy packages
+- [ ] **Official Jim's franchisee logo pack** (currently using division-site CDN asset — confirm with Jim's Group onboarding)
+
+---
+
+## Deployment
+
+### Standalone (GitHub Pages)
+Auto-deploys on push to `main` via `.github/workflows/deploy.yml`.
+URL: https://firozmahamud29.github.io/jims-painting-nightcliff/
+
+### WordPress
+1. Install parent theme **Hello Elementor**.
+2. Install Elementor + Elementor Pro.
+3. Upload `wordpress-theme/jims-painting-nightcliff.zip` via Appearance → Themes → Add New → Upload.
+4. Activate. Set front page to a static "Home" page.
+5. Optional: Appearance → Customize → **JPN — Contact Details** to set phone/email/address.
+6. Optional: Use `[jpn_quote_form]` shortcode anywhere, or build a custom Header/Footer in Elementor Pro Theme Builder.
+
+---
+
+## Stack
+
+- **Standalone:** vanilla HTML / CSS / JS — no build step, no framework.
+- **WordPress:** child theme on Hello Elementor, Elementor Pro Theme Builder.
+- **Lead capture:** custom post type (`jpn_lead`) + admin-ajax handler — no plugin dependency.
+
+---
+
+© Jim's Painting Nightcliff · Backed by Jim's Group · Darwin, NT · Built by Qii Creative

@@ -27,3 +27,4 @@ __pycache__/
 # Temp / debug
 *.log
 .cache/
+markitdown/
