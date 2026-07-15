@@ -54,7 +54,7 @@ Zip the `jims-painting-nightcliff` folder, then:
 **Settings → Reading** → "Your homepage settings" → **A static page** → select (or create) **"Home"**.
 
 ### Step 5 — Configure contact details
-**Appearance → Customize → TPP — Contact Details** → enter phone, email, address, social URLs, and the lead recipient email.
+**Appearance → Customize → JPN — Contact Details** → enter phone, email, address, social URLs, and the lead recipient email.
 
 ✅ **You're live.** The pre-built landing page now renders with your contact details wired in.
 
