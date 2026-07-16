@@ -44,7 +44,7 @@ function jpn_quote_form_shortcode( $atts = array() ) {
                     <div><label class="lbl" for="rooms">Number of Rooms / Approx. Size</label><input type="text" id="rooms" name="rooms" placeholder="e.g. 3 rooms"></div>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" id="nextBtn">Next <span>&#8594;</span></button>
-                <p class="prefer-call">Prefer to call? <a href="tel:+61400000000">0400 000 000</a> · Jim's <a href="tel:131546">131 546</a></p>
+                <p class="prefer-call">Prefer to call? <a href="tel:+61889000000">(08) 8900 0000</a></p>
             </div>
 
             <!-- STEP 2 -->

@@ -24,7 +24,7 @@ This is the franchisee site for **Jim's Painting Nightcliff**, part of the offic
 | **Logo** | Official Jim's asset (never redraw the "Jim's" wordmark) |
 | **Trust badges** | 10,000+ Five-Star Reviews · Fully Trained & Insured · Police Checked · Jim's Work Guarantee |
 | **CTAs** | "Request a Free Quote" + "Call Now" |
-| **Phone** | Franchisee mobile primary · `131 546` optional central |
+| **Phone** | `(08) 8900 0000` |
 
 ---
 
@@ -96,10 +96,8 @@ All internal identifiers use the `jpn_` / `JPN_` / `jims-painting-nightcliff` sc
 
 Replace these placeholders before going live:
 
-- [ ] **Real phone number** (currently `0400 000 000` placeholder)
 - [ ] **Real ABN** (currently `00 000 000 000`)
 - [ ] **Domain confirmation** (currently `jimspaintingnightcliff.com.au` placeholder)
-- [ ] **Real lead email** (currently `nightcliff@jimspainting.com.au`)
 - [ ] **Real photos** to replace gradient placeholders in gallery + before/after slider
 - [ ] **Testimonials approval** (3 reviews currently placeholders)
 - [ ] **Pricing confirmation** for Roof / Fence / Epoxy packages

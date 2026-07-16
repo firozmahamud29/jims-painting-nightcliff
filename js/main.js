@@ -8,7 +8,7 @@
 
 const FORM_CONFIG = {
   mode: 'mailto',
-  recipientEmail: 'nightcliff@jimspainting.com.au',
+  recipientEmail: 'quotes@territoryproudpainters.com.au',
   endpointURL: '',
   googleURL: ''
 };

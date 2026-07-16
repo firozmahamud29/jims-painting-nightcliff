@@ -506,7 +506,7 @@ $opt = jpn_get_option();
     <h2>Need it Done? <em>Jim's the One!</em></h2>
     <p>Free, fixed-price quote within one business day. No obligation, no pressure. <strong>Your Local Expert!</strong></p>
     <a href="#quote" class="btn btn-primary btn-lg magnetic" data-magnetic>Get a Free Quote <span>→</span></a>
-    <p class="final-phone">or call <a href="tel:<?php echo esc_attr( $opt['phone_raw'] ); ?>"><?php echo esc_html( $opt['phone'] ); ?></a> · Jim's <a href="tel:131546">131 546</a></p>
+    <p class="final-phone">or call <a href="tel:<?php echo esc_attr( $opt['phone_raw'] ); ?>"><?php echo esc_html( $opt['phone'] ); ?></a></p>
   </div>
 </section>
 </main>

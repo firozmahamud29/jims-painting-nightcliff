@@ -41,14 +41,14 @@ add_action( 'after_setup_theme', 'jpn_setup' );
  */
 function jpn_get_option( $key = '', $default = '' ) {
     $defaults = array(
-        'phone'        => '0400 000 000',
-        'phone_raw'    => '+61400000000',
-        'email'        => 'nightcliff@jimspainting.com.au',
-        'address'      => 'Nightcliff, Darwin NT 0810',
+        'phone'        => '(08) 8900 0000',
+        'phone_raw'    => '+61889000000',
+        'email'        => 'quotes@territoryproudpainters.com.au',
+        'address'      => 'Darwin, NT 0800',
         'instagram'    => '#',
         'facebook'     => '#',
         'whatsapp'     => '#',
-        'lead_email'   => 'nightcliff@jimspainting.com.au',
+        'lead_email'   => 'quotes@territoryproudpainters.com.au',
     );
     $options = get_option( 'jpn_options', array() );
     $options = wp_parse_args( $options, $defaults );
