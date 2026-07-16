@@ -24,7 +24,7 @@ $opt = jpn_get_option();
     <div class="hero-copy reveal">
       <span class="eyebrow">Affordable Painting in Darwin — From $299/Room</span>
       <h1>Need it Done?<br><em>Jim's the One!</em></h1>
-      <p class="hero-sub">Affordable house &amp; commercial painting across Darwin, Palmerston &amp; the Top End. Interior rooms from <strong>$299</strong> — fixed-price quotes, no hidden fees. <strong>Your Local Expert!</strong></p>
+      <p class="hero-sub">Reliable painters in Darwin &amp; Palmerston. Get your free quote online and lock in a start date that suits you — homes, businesses and everything in between.</p>
 
       <div class="hero-trust">
         <span class="stars" aria-label="4.9 out of 5 stars">★★★★★</span>
@@ -126,20 +126,42 @@ $opt = jpn_get_option();
 
 <!-- ============ ABOUT ============ -->
 <section class="about" id="about">
-  <div class="wrap narrow reveal">
-    <span class="eyebrow">About Jim's Painting Nightcliff</span>
-    <h2>Your Local Expert in Darwin Painting</h2>
-    <p>Looking for affordable house painters in Darwin? Jim's Painting Nightcliff offers budget-friendly interior painting, exterior repaints, roof restoration and commercial painting for locals and businesses — backed by the Jim's Group national network.</p>
-    <p>Whether you need a single feature wall, a full repaint, or an office refresh, we deliver reliable results at competitive prices. Our flexible scheduling suits renovations, rentals, or long-term maintenance plans across Darwin.</p>
-    <h3 class="about-sub">We specialise in:</h3>
-    <ul class="spec-list">
-      <li>Affordable house painting Darwin</li>
-      <li>Interior Painting Darwin</li>
-      <li>Exterior House Painting Darwin</li>
-      <li>Roof Restoration Darwin</li>
-      <li>Budget-Friendly Pricing (Painting Prices Darwin)</li>
-      <li>Commercial Painting Darwin &amp; Strata Maintenance Available</li>
-    </ul>
+  <div class="wrap reveal">
+    <div class="about-grid">
+      <div class="about-copy">
+        <span class="eyebrow">About Jim's Painting Nightcliff</span>
+        <h2>Your Local Expert in Darwin Painting</h2>
+        <p>Looking for affordable house painters in Darwin? Jim's Painting Nightcliff offers budget-friendly interior painting, exterior repaints, roof restoration and commercial painting for locals and businesses — backed by the Jim's Group national network.</p>
+        <p>Whether you need a single feature wall, a full repaint, or an office refresh, we deliver reliable results at competitive prices. Our flexible scheduling suits renovations, rentals, or long-term maintenance plans across Darwin.</p>
+        <h3 class="about-sub">We specialise in:</h3>
+        <ul class="spec-list">
+          <li>Affordable House Painting Darwin</li>
+          <li>Interior Painting Darwin</li>
+          <li>Exterior House Painting Darwin</li>
+          <li>Roof Restoration Darwin</li>
+          <li>Budget-Friendly Pricing</li>
+          <li>Commercial &amp; Strata Maintenance</li>
+        </ul>
+      </div>
+      <div class="about-visual">
+        <div class="about-card">
+          <span class="about-card-num">12+</span>
+          <span class="about-card-label">Years Experience</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">1,200+</span>
+          <span class="about-card-label">Homes Painted</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">4.9★</span>
+          <span class="about-card-label">Google Rating</span>
+        </div>
+        <div class="about-card">
+          <span class="about-card-num">5yr</span>
+          <span class="about-card-label">Workmanship Guarantee</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
