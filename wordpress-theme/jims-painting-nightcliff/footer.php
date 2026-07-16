@@ -16,10 +16,15 @@ $opt = jpn_get_option();
 <footer class="site-footer">
     <div class="container footer-grid">
         <div class="footer-col">
+            <h4>About Us</h4>
+            <p class="foot-about">Whether it's a single room or a full commercial site, every great space starts with the right finish. At Territory Proud Painters, we make painting easy, affordable and personal — so you can focus on the result, not the hassle.</p>
+        </div>
+        <div class="footer-col">
             <h4>Painting Options</h4>
             <ul class="seo-links">
+                <li><a href="#packages">Affordable House Painting Darwin</a></li>
                 <li><a href="#packages">Interior Painting Darwin</a></li>
-                <li><a href="#packages">Exterior House Painting Darwin</a></li>
+                <li><a href="#packages">Exterior Painting Darwin</a></li>
                 <li><a href="#packages">Roof Restoration Darwin</a></li>
                 <li><a href="#packages">Commercial Painting Darwin</a></li>
                 <li><a href="#packages">Strata Maintenance Darwin</a></li>
@@ -31,10 +36,10 @@ $opt = jpn_get_option();
             <ul>
                 <li><a href="#quoteForm">Contact Us</a></li>
                 <li><a href="#services">Why Choose Us</a></li>
-                <li><a href="#packages">Our Packages</a></li>
-                <li><a href="#faq">FAQ</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/about-us/' ) ); ?>">About Us</a></li>
                 <li><a href="<?php echo esc_url( home_url( '/privacy-policy/' ) ); ?>">Privacy Policy</a></li>
-                <li><a href="<?php echo esc_url( home_url( '/terms-and-conditions/' ) ); ?>">Terms &amp; Conditions</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/terms-and-conditions/' ) ); ?>">Terms and Conditions</a></li>
+                <li><a href="<?php echo esc_url( home_url( '/service-agreement/' ) ); ?>">Service Agreement</a></li>
             </ul>
         </div>
         <div class="footer-col">
@@ -52,7 +57,7 @@ $opt = jpn_get_option();
     </div>
     <div class="footer-bottom">
         <div class="container">
-            <p>&copy; <?php echo esc_html( date( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?> · Backed by Jim's Group · All rights reserved.</p>
+            <p>Copyright © 2026 Territory Proud Painters. All Rights Reserved. Fully licensed &amp; insured · NT WHS compliant</p>
         </div>
     </div>
 </footer>

@@ -41,7 +41,7 @@ function jpn_quote_form_shortcode( $atts = array() ) {
                 </div>
                 <div class="grid-2">
                     <div><label class="lbl" for="sdate">Preferred Start Date <span class="req">*</span></label><input type="date" id="sdate" name="start_date" required></div>
-                    <div><label class="lbl" for="rooms">Number of Rooms / Approx. Size</label><input type="text" id="rooms" name="rooms" placeholder="e.g. 3 rooms"></div>
+                    <div><label class="lbl" for="rooms">Rooms / Approx. Size</label><input type="text" id="rooms" name="rooms" placeholder="e.g. 3 rooms"></div>
                 </div>
                 <button type="button" class="btn btn-primary btn-block" id="nextBtn">Next <span>&#8594;</span></button>
                 <p class="prefer-call">Prefer to call? <a href="tel:+61889000000">(08) 8900 0000</a></p>

@@ -130,32 +130,7 @@
   }
 
   function initReviews() {
-    const reviews = [
-      { quote: "Fixed-price quote, turned up on time, and the finish is flawless. Our Nightcliff place looks brand new — even after the first Wet. This is how every tradesperson should operate.", name: "Sarah T.", meta: "Nightcliff, NT · ★★★★★", initials: "ST" },
-      { quote: "They repainted our Casuarina shop overnight with zero disruption to trade. Professional crew, spotless clean-up, and the colour match was bang on. Highly recommend to any NT business.", name: "Mark B.", meta: "Casuarina, NT · ★★★★★", initials: "MB" },
-      { quote: "Three rooms done in two days for the price they quoted. Great colour advice too — they talked us out of a bad choice and saved us money. Top blokes, top job.", name: "Renee & Josh K.", meta: "Palmerston, NT · ★★★★★", initials: "RK" }
-    ];
-    const quoteEl = document.querySelector('.pullquote');
-    const attrEl = document.querySelector('.pq-attr');
-    const dotsEl = document.getElementById('rvDots');
-    if (!quoteEl || !attrEl) return;
-    let idx = 0;
-    reviews.forEach((_, i) => {
-      const dot = document.createElement('span');
-      if (i === 0) dot.classList.add('active');
-      dot.addEventListener('click', () => show(i));
-      dotsEl.appendChild(dot);
-    });
-    function show(i) {
-      idx = i; const r = reviews[i];
-      quoteEl.innerHTML = `<span class="pq-mark">"</span>${r.quote}`;
-      attrEl.innerHTML = `<div class="pq-avatar">${r.initials}</div><div><strong>${r.name}</strong><span>${r.meta}</span></div>`;
-      dotsEl.querySelectorAll('span').forEach((d, di) => d.classList.toggle('active', di === idx));
-    }
-    document.querySelectorAll('.rv-btn').forEach(btn => {
-      btn.addEventListener('click', () => show((idx + (btn.dataset.dir === 'next' ? 1 : -1) + reviews.length) % reviews.length));
-    });
-    setInterval(() => show((idx + 1) % reviews.length), 7000);
+    // Static card grid — no carousel needed
   }
 
   /* ---------- 2-step form (WP admin-ajax) ---------- */

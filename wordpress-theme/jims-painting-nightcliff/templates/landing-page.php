@@ -27,10 +27,7 @@ $opt = jpn_get_option();
       <p class="hero-sub">Reliable painters in Darwin &amp; Palmerston. Get your free quote online and lock in a start date that suits you — homes, businesses and everything in between.</p>
 
       <div class="hero-trust">
-        <span class="stars" aria-label="4.9 out of 5 stars">★★★★★</span>
-        <span><strong>4.9</strong> from 187 Darwin reviews</span>
-        <span class="dot">·</span>
-        <span>Fully insured · Police checked</span>
+        <span>Fully insured · Police checked · 5-Year Guarantee</span>
       </div>
 
       <div class="hero-ctas">
@@ -63,24 +60,7 @@ $opt = jpn_get_option();
 </section>
 
 <!-- ============ MARQUEE ============ -->
-<div class="marquee-strip">
-  <div class="marquee-track">
-    <span>Dulux Accredited</span><span class="sep">◆</span>
-    <span>Taubmans Endorsed</span><span class="sep">◆</span>
-    <span>Haymes Premium</span><span class="sep">◆</span>
-    <span>Wattyl Specifier</span><span class="sep">◆</span>
-    <span>Solver Paints</span><span class="sep">◆</span>
-    <span>Master Painters Member</span><span class="sep">◆</span>
-    <span>Dulux Accredited</span><span class="sep">◆</span>
-    <span>Taubmans Endorsed</span><span class="sep">◆</span>
-    <span>Haymes Premium</span><span class="sep">◆</span>
-    <span>Wattyl Specifier</span><span class="sep">◆</span>
-    <span>Solver Paints</span><span class="sep">◆</span>
-    <span>Master Painters Member</span><span class="sep">◆</span>
-  </div>
-</div>
-
-<!-- ============ WELCOME / INTRO (4 CTA cards) ============ -->
+<!-- ========= WELCOME / INTRO (4 CTA cards) ========= -->
 <section class="welcome" id="welcome">
   <div class="wrap">
     <div class="section-head center reveal">
@@ -153,10 +133,6 @@ $opt = jpn_get_option();
           <span class="about-card-label">Homes Painted</span>
         </div>
         <div class="about-card">
-          <span class="about-card-num">4.9★</span>
-          <span class="about-card-label">Google Rating</span>
-        </div>
-        <div class="about-card">
           <span class="about-card-num">5yr</span>
           <span class="about-card-label">Workmanship Guarantee</span>
         </div>
@@ -165,39 +141,7 @@ $opt = jpn_get_option();
   </div>
 </section>
 
-<!-- ============ STAT BAND ============ -->
-<section class="stat-band">
-  <div class="wrap stat-grid">
-    <div class="stat reveal"><span class="stat-num" data-count="299" data-prefix="$">0</span><span class="stat-label">Rooms from /room</span></div>
-    <div class="stat reveal"><span class="stat-num" data-count="1240" data-suffix="+">0</span><span class="stat-label">Rooms painted</span></div>
-    <div class="stat reveal"><span class="stat-num" data-count="4.9" data-decimals="1">0</span><span class="stat-label">Google rating</span></div>
-    <div class="stat reveal"><span class="stat-num" data-count="5" data-suffix="yr">0</span><span class="stat-label">Workmanship guarantee</span></div>
-  </div>
-</section>
-
-<!-- ============ BEFORE / AFTER SLIDER ============ -->
-<section class="ba-section" id="work">
-  <div class="wrap">
-    <div class="section-head reveal">
-      <span class="eyebrow">The Work</span>
-      <h2>Drag the slider.<br><em>See the difference.</em></h2>
-    </div>
-    <div class="ba-slider reveal" id="baSlider">
-      <div class="ba-img ba-after" data-label="After · Nightcliff, 2025">
-        <div class="ba-fill illus" style="background:linear-gradient(135deg,#e1261c 0%,#f5f6f8 100%);"></div>
-        <span class="ba-caption">After · Nightcliff · 3 coats, low-VOC</span>
-      </div>
-      <div class="ba-img ba-before" data-label="Before">
-        <div class="ba-fill illus" style="background:linear-gradient(135deg,#6B6B6B 0%,#9C9C9C 100%);"></div>
-        <span class="ba-caption">Before</span>
-      </div>
-      <div class="ba-handle" id="baHandle"><div class="ba-handle-line"></div><div class="ba-handle-circle">⟷</div></div>
-    </div>
-    <p class="ba-hint">Real project · Nightcliff living room · Drag to compare</p>
-  </div>
-</section>
-
-<!-- ============ PACKAGES (6 tabs) ============ -->
+<!-- ========= PACKAGES (6 tabs) ========= -->
 <section class="packages" id="packages">
   <div class="wrap">
     <div class="section-head reveal">
@@ -233,9 +177,26 @@ $opt = jpn_get_option();
               <li><span class="feat-ico">⏱</span> 5-Yr Guarantee</li>
             </ul>
             <a href="#quote" class="btn btn-primary">Book Now</a>
-            <p class="pkg-note">Pricing may vary with room size, repairs and colour changes. Also available: <strong>Full Interior Repaint from $2,490/home</strong> — whole home, walls to woodwork, free colour consult.</p>
+            <p class="pkg-note">Pricing may vary with room size, repairs and colour changes.</p>
           </div>
           <div class="pkg-photo photo-illus" style="background:linear-gradient(160deg,#e1261c,#f5f6f8);"><span>PHOTO: ROOM REFRESH — PARAP</span></div>
+        </div>
+        <div class="pkg-detail pkg-detail-alt">
+          <div class="pkg-info">
+            <span class="pkg-tag">Whole Home</span>
+            <div class="pkg-price"><span class="cur">From</span><span class="amt">$2,490</span><span class="unit">/home</span></div>
+            <h3>Full Interior Repaint — Whole Home, Walls to Woodwork</h3>
+            <p class="pkg-desc">A complete interior transformation: walls, ceilings, doors, trims and cupboards across the whole home. Includes free colour consultation, full furniture protection and a spotless clean-up. Perfect for new owners, renovators or landlords between tenants.</p>
+            <ul class="pkg-features">
+              <li><span class="feat-ico">🌿</span> Low-VOC Paint</li>
+              <li><span class="feat-ico">②</span> 2 Coats</li>
+              <li><span class="feat-ico">🎨</span> Free Colour Consult</li>
+              <li><span class="feat-ico">⏱</span> 5-Yr Guarantee</li>
+            </ul>
+            <a href="#quote" class="btn btn-primary">Book Now</a>
+            <p class="pkg-note">Pricing may vary with home size and surface condition.</p>
+          </div>
+          <div class="pkg-photo photo-illus" style="background:linear-gradient(160deg,#e1261c,#8B1F18);"><span>PHOTO: FULL INTERIOR — NIGHTCLIFF</span></div>
         </div>
       </div>
       <!-- Exterior -->
@@ -386,6 +347,56 @@ $opt = jpn_get_option();
   </div>
 </section>
 
+<!-- ============ WHAT YOU GET ============ -->
+<section class="you-get" id="you-get">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <span class="eyebrow">What You Get With Every Booking</span>
+      <h2>Every job, every time — the full package.</h2>
+    </div>
+    <div class="youget-grid">
+      <div class="youget-card">
+        <h3>Affordable Rates from $299/Room</h3>
+        <p>Clean, professional finishes to suit every budget — one room or the whole house. Darwin's best-value repaint.</p>
+      </div>
+      <div class="youget-card">
+        <h3>Flexible Package Deals</h3>
+        <p>Repainting for renovation, sale or maintenance? We tailor multi-room and whole-property rates to your plans.</p>
+      </div>
+      <div class="youget-card">
+        <h3>Full Prep Included</h3>
+        <p>Every job includes washing, sanding, gap-filling and patching — the prep that makes the finish last.</p>
+      </div>
+      <div class="youget-card">
+        <h3>Guarantee Included</h3>
+        <p>A written 5-year workmanship guarantee comes with every booking. Extended cover available on exterior systems.</p>
+      </div>
+    </div>
+    <div class="youget-values">
+      <div class="youget-value">
+        <span class="youget-ico">🎨</span>
+        <h4>A Wide Range of Services</h4>
+        <p>From feature walls to strata complexes — the right crew and coating for homes, businesses and industrial sites.</p>
+      </div>
+      <div class="youget-value">
+        <span class="youget-ico">🏠</span>
+        <h4>Locally Owned &amp; Operated</h4>
+        <p>Proudly based in Darwin, NT — supporting locals with real, personal service and honest advice.</p>
+      </div>
+      <div class="youget-value">
+        <span class="youget-ico">🖌</span>
+        <h4>Colour &amp; On-Site Consultation</h4>
+        <p>Want help choosing? Free on-site colour consultation with samples matched to your light and style.</p>
+      </div>
+      <div class="youget-value">
+        <span class="youget-ico">⚡</span>
+        <h4>Fast &amp; Easy Booking Process</h4>
+        <p>Send us your details and photos — we'll quote quickly and get you booked in with no hassle.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- ============ SERVICE AREAS ============ -->
 <section class="areas">
   <div class="wrap center reveal">
@@ -420,20 +431,36 @@ $opt = jpn_get_option();
 
 <!-- ============ REVIEWS ============ -->
 <section class="reviews" id="reviews">
-  <div class="wrap narrow reveal">
-    <span class="eyebrow">What Customers Say About Us</span>
-    <blockquote class="pullquote">
-      <span class="pq-mark">"</span>
-      Fixed-price quote, turned up on time, and the finish is flawless. Our Nightcliff place looks brand new — even after the first Wet. Need it Done? Jim's the One!
-    </blockquote>
-    <div class="pq-attr">
-      <div class="pq-avatar">ST</div>
-      <div><strong>Sarah T.</strong><span>Nightcliff, NT · ★★★★★</span></div>
+  <div class="wrap reveal">
+    <div class="section-head center">
+      <span class="eyebrow">What Customers Say About Us</span>
+      <h2>Trusted by Darwin <em>Homeowners.</em></h2>
     </div>
-    <div class="review-nav">
-      <button class="rv-btn" data-dir="prev" aria-label="Previous review">←</button>
-      <span class="rv-dots" id="rvDots"></span>
-      <button class="rv-btn" data-dir="next" aria-label="Next review">→</button>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-quote">"Fixed-price quote, turned up on time, and the finish is flawless. Our Nightcliff place looks brand new — even after the first Wet."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">ST</div>
+          <div><strong>Sarah T.</strong><span>Nightcliff, NT</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-quote">"They repainted our Casuarina shop overnight with zero disruption to trade. Professional crew, spotless clean-up."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">MB</div>
+          <div><strong>Mark B.</strong><span>Casuarina, NT</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="rc-stars">★★★★★</div>
+        <p class="rc-quote">"Three rooms done in two days for the price they quoted. Great colour advice too — highly recommend to any Palmerston local."</p>
+        <div class="rc-author">
+          <div class="rc-avatar">RK</div>
+          <div><strong>Renee &amp; Josh K.</strong><span>Palmerston, NT</span></div>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -516,9 +543,6 @@ $opt = jpn_get_option();
       <div class="acc reveal"><button class="acc-h" aria-expanded="false">Do you offer whole-house painting packages?<span class="acc-i">+</span></button><div class="acc-b"><p>Yes — our Full Interior Repaint covers the whole home (walls, ceilings, doors, trims and cupboards) from $2,490. Includes free colour consultation and furniture protection.</p></div></div>
       <div class="acc reveal"><button class="acc-h" aria-expanded="false">Is preparation included in the price?<span class="acc-i">+</span></button><div class="acc-b"><p>Yes — every quote includes full prep: cleaning, sanding, filling, masking, and furniture protection. No surprise add-ons, ever.</p></div></div>
       <div class="acc reveal"><button class="acc-h" aria-expanded="false">Do you paint commercial premises?<span class="acc-i">+</span></button><div class="acc-b"><p>Absolutely. Offices, shops, strata complexes and warehouses — WHS-compliant crews, after-hours scheduling, 48-hour quotes.</p></div></div>
-      <div class="acc reveal"><button class="acc-h" aria-expanded="false">How fast can you start?<span class="acc-i">+</span></button><div class="acc-b"><p>We reply within one business day and can usually schedule within 1–2 weeks. Book before October to secure exterior work before the Wet.</p></div></div>
-      <div class="acc reveal"><button class="acc-h" aria-expanded="false">Are you licenced and insured?<span class="acc-i">+</span></button><div class="acc-b"><p>Yes — fully insured with $20M public liability, WHS-compliant crews, police-checked, and backed by Jim's Work Guarantee. Certificate of Currency on request.</p></div></div>
-      <div class="acc reveal"><button class="acc-h" aria-expanded="false">What's the guarantee?<span class="acc-i">+</span></button><div class="acc-b"><p>5-year workmanship guarantee on interiors, 7-year on exterior premium systems — backed by Jim's Work Guarantee. If anything fails, we fix it — no argument.</p></div></div>
     </div>
   </div>
 </section>
