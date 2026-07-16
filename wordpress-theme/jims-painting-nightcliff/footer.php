@@ -15,9 +15,12 @@ $opt = jpn_get_option();
 
 <footer class="site-footer">
     <div class="container footer-grid">
-        <div class="footer-col">
-            <h4>About Us</h4>
-            <p class="foot-about">Whether it's a single room or a full commercial site, every great space starts with the right finish. At Territory Proud Painters, we make painting easy, affordable and personal — so you can focus on the result, not the hassle.</p>
+        <div class="footer-col foot-brand">
+            <a href="#top" class="brand brand-foot">
+                <img src="<?php echo esc_url( get_stylesheet_directory_uri() . '/assets/img/jims-painting-logo.png' ); ?>" alt="Jim's Painting" class="brand-logo" width="120" height="82">
+                <span class="brand-text"><strong style="color:var(--bone,#fff);">jim's painting</strong><small style="color:rgba(255,255,255,.6);">NIGHTCLIFF · DARWIN NT</small></span>
+            </a>
+            <p class="foot-about">Whether it's a single room or a full commercial site, every great space starts with the right finish. At Territory Proud Painters, we make painting easy, affordable and personal — so you can focus on the result, not the hassle. <strong style="color:var(--jims-gold,#f1d09f);">Need it Done? Jim's the One!</strong></p>
         </div>
         <div class="footer-col">
             <h4>Painting Options</h4>

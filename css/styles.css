@@ -695,6 +695,7 @@ input::placeholder { color: var(--charcoal-mid); opacity: 0.6; }
 .pkg-panel { display: none; animation: fadeUp .4s var(--ease-out); }
 .pkg-panel.active { display: block; }
 .pkg-detail { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; max-width: 1040px; margin: 0 auto; }
+.pkg-detail + .pkg-detail { margin-top: 56px; padding-top: 56px; border-top: 1px solid var(--line); }
 .pkg-info { padding: 16px 0; }
 .pkg-info .pkg-tag {
   display: inline-block; font-size: 0.72rem; font-weight: 700; text-transform: uppercase;
