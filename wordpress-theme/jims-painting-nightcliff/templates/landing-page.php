@@ -320,45 +320,40 @@ $opt = jpn_get_option();
   </div>
 </section>
 
-<!-- ============ WHY CHOOSE US (5 value props) ============ -->
+<!-- ============ OUR SERVICES (from territory-proud-painters.pdf p.3) ============ -->
 <section class="why" id="why">
   <div class="wrap">
     <div class="section-head center reveal">
-      <span class="eyebrow">Why Choose Us?</span>
-      <h2>Built for Top End <em>Conditions.</em></h2>
+      <span class="eyebrow">Our Services</span>
+      <h2>Everything you need for a smooth, reliable repaint in Darwin — from single rooms to full <em>commercial sites.</em></h2>
+      <p class="section-sub">Clear options that make booking simple.</p>
     </div>
     <div class="why-grid">
       <div class="why-card reveal">
-        <span class="why-ico">💰</span>
-        <h3>Affordable Rates from $299/Room</h3>
-        <p>Clean, professional finishes to suit every budget — one room or the whole house. Darwin's best-value repaint.</p>
+        <span class="why-ico">🖌</span>
+        <h3>Flawless, Durable Finishes</h3>
+        <p>Every surface is properly prepped and painted with premium products built for Top End heat and humidity.</p>
       </div>
       <div class="why-card reveal">
-        <span class="why-ico">📐</span>
+        <span class="why-ico">💰</span>
         <h3>Fair Prices, No Surprises</h3>
         <p>Fixed-price quotes with no hidden fees. You get the finish and service you agreed at the quoted rate.</p>
       </div>
       <div class="why-card reveal">
-        <span class="why-ico">🏘</span>
-        <h3>Local Darwin Team, Fast Response</h3>
-        <p>Proudly based in Nightcliff — supporting locals with real, personal service and honest advice. We reply within one business day.</p>
+        <span class="why-ico">🤝</span>
+        <h3>We've Got Your Back</h3>
+        <p>Local support before, during and after the job. Free quotes in Darwin &amp; Palmerston. Travel fee applies for remote areas.</p>
       </div>
       <div class="why-card reveal">
-        <span class="why-ico">🎨</span>
-        <h3>Free Colour Consultation</h3>
-        <p>Free on-site colour consultation with every booking — samples matched to your light and style.</p>
+        <span class="why-ico">📅</span>
+        <h3>Flexible Scheduling</h3>
+        <p>Nights, weekends and staged works available — we fit around your household or trading hours.</p>
       </div>
       <div class="why-card reveal">
-        <span class="why-ico">🌙</span>
-        <h3>Flexible Scheduling + 5-Year Guarantee</h3>
-        <p>Nights, weekends and staged works available. Every job backed by a written 5-year workmanship guarantee.</p>
+        <span class="why-ico">🌏</span>
+        <h3>Painting Across Darwin</h3>
+        <p>We service Darwin City, Palmerston, Casuarina and the rural Top End. On-site quotes available.</p>
       </div>
-    </div>
-    <div class="why-extras reveal">
-      <div class="why-extra"><span class="why-ico-sm">🧰</span> Full Prep Included</div>
-      <div class="why-extra"><span class="why-ico-sm">🛡</span> Fully Insured</div>
-      <div class="why-extra"><span class="why-ico-sm">✓</span> Police Checked</div>
-      <div class="why-extra"><span class="why-ico-sm">⏱</span> 5-Yr Guarantee</div>
     </div>
   </div>
 </section>
