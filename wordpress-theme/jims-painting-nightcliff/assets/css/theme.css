@@ -667,6 +667,9 @@ input::placeholder { color: var(--charcoal-mid); opacity: 0.6; }
 .why-ico { font-size: 2rem; display: block; margin-bottom: 14px; }
 .why-card h3 { font-size: 1.15rem; margin-bottom: 8px; }
 .why-card p { color: var(--charcoal-mid); font-size: 0.94rem; }
+.why-extras { display: flex; flex-wrap: wrap; gap: 16px; justify-content: center; margin-top: 32px; padding-top: 28px; border-top: 1px solid var(--line); }
+.why-extra { display: flex; align-items: center; gap: 8px; font-family: var(--font-head); font-weight: 600; font-size: 0.9rem; color: var(--charcoal); }
+.why-ico-sm { font-size: 1.1rem; }
 
 /* ---------- Service areas ---------- */
 .areas { background: var(--cloud); }
