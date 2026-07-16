@@ -86,7 +86,7 @@ $opt = jpn_get_option();
     <div class="section-head center reveal">
       <span class="eyebrow">Welcome to Jim's Painting Nightcliff</span>
       <h2>Affordable Painting in Darwin,<br>Reliable &amp; Easy Booking</h2>
-      <p class="section-sub" style="margin-inline:auto;">House &amp; commercial painting from one local team. Interior rooms from $299 — fixed-price quotes, no hidden fees.</p>
+      <p class="section-sub">House &amp; commercial painting from one local team. Interior rooms from $299 — fixed-price quotes, no hidden fees.</p>
     </div>
     <div class="cta-cards">
       <a href="#quote" class="cta-card reveal">
@@ -469,7 +469,7 @@ $opt = jpn_get_option();
     <div class="section-head center reveal">
       <span class="eyebrow">Key Information</span>
       <h2>Terms &amp; Conditions</h2>
-      <p class="section-sub" style="margin-inline:auto;">Key conditions to be aware of when booking with Jim's Painting Nightcliff. Full T&amp;Cs apply.</p>
+      <p class="section-sub">Key conditions to be aware of when booking with Jim's Painting Nightcliff. Full T&amp;Cs apply.</p>
     </div>
     <div class="ki-grid">
       <div class="ki-card reveal"><h3>📋 Quotes &amp; Pricing</h3><p>Quotes are valid for 30 days and fixed once accepted. Variations (extra repairs, colour changes after starting) are quoted in writing before any additional work begins.</p></div>
