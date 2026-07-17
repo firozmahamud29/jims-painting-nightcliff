@@ -122,6 +122,8 @@ $opt = jpn_get_option();
           <li>Budget-Friendly Pricing</li>
           <li>Commercial &amp; Strata Maintenance</li>
         </ul>
+        <p class="about-cta-line">Book your painter today and enjoy a hassle-free repaint in Darwin with local support.</p>
+        <a href="#quoteForm" class="btn btn-primary btn-block">Book Your Painter Now</a>
       </div>
       <div class="about-visual">
         <div class="about-card">
@@ -148,6 +150,7 @@ $opt = jpn_get_option();
       <span class="eyebrow">Affordable Painting Packages</span>
       <h2>Transparent Packages.<br><em>No Surprises.</em></h2>
       <p class="section-sub">From single-room refreshes to full commercial repaints — carefully priced packages that give every customer a premium finish.</p>
+      <p class="section-tagline">CITY SMART, HOME READY — REFRESH EASY WITH JIM'S PAINTING NIGHTCLIFF</p>
     </div>
 
     <!-- Tab buttons -->
@@ -206,7 +209,7 @@ $opt = jpn_get_option();
             <span class="pkg-tag">Built for the Wet</span>
             <div class="pkg-price"><span class="cur">From</span><span class="amt">$4,900</span><span class="unit">/home</span></div>
             <h3>Exterior House Repaint — Weather-Resistant, UV-Stable</h3>
-            <p class="pkg-desc">Protect and refresh your home's exterior with high-durability coatings made for NT sun, storms and humidity. Includes pressure wash, full prep, minor repairs and two coats on walls, eaves and trims.</p>
+            <p class="pkg-desc">Protect and refresh your home's exterior with high-durability coatings made for NT sun, storms and humidity. Includes pressure wash, full prep, minor repairs and two coats on walls, eaves and trims — finished before the Wet hits.</p>
             <ul class="pkg-features">
               <li><span class="feat-ico">💦</span> Pressure Wash</li>
               <li><span class="feat-ico">☀</span> UV-Stable</li>
@@ -309,7 +312,7 @@ $opt = jpn_get_option();
     <div class="section-head center reveal">
       <span class="eyebrow">Our Services</span>
       <h2>Everything you need for a smooth, reliable repaint in Darwin — from single rooms to full <em>commercial sites.</em></h2>
-      <p class="section-sub">House &amp; commercial painting from one local team. Interior rooms from $299 — fixed-price quotes, no hidden fees.</p>
+      <p class="section-sub">Clear options that make booking simple.</p>
     </div>
     <div class="why-grid">
       <div class="why-card reveal">

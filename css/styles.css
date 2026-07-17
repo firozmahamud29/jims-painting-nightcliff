@@ -641,6 +641,12 @@ input::placeholder { color: var(--charcoal-mid); opacity: 0.6; }
   list-style: none;
 }
 .spec-list li::before { display: none; }
+.about-cta-line { margin: 24px 0 0; color: var(--charcoal); font-size: 1.02rem; line-height: 1.7; font-weight: 600; }
+.section-tagline {
+  font-family: var(--font-head); font-size: 0.8rem; font-weight: 700;
+  text-transform: uppercase; letter-spacing: 0.16em; color: var(--jims-red);
+  margin-top: 18px;
+}
 
 /* About visual cards */
 .about-visual {
